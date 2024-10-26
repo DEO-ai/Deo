@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Divine's web</title> 
+        <meta name="viewport"
+        content="width=device-width">
+        <meta charset="UTF-8">   
+        <style>
+            .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 15%;
+    border-bottom: 2.5px rgba(0, 0, 0, 0.527) solid;
+    z-index: 1;
+}
+
+.video_container{
+    width: 210px;
+}
+.user_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#video{
+    width:200px;
+    height: 200px;
+}
+#logo{
+    text-align: end;
+    font-size: 350%;
+    text-shadow: 5px 5px 5px rgba(165, 42, 42, 0.842);
+}
+
+#channel_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid snow;
+}
+.video_info{
+    display:grid;
+    grid-template-columns: 1fr 60fr;
+}
+#extra_info{
+    font-size: 12px;
+    opacity:0.7
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 600px){
+    .body{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1000px){
+    .body{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+body{
+    padding-top: 19%;
+}
+        </style>
+        <link rel="stylesheet" href="head.css">
+        <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="media.css">      
+    </head>
+    <body>
+        <div class="head">
+            <div>
+                <img src=" 3 dashes.webp" height="30px" alt="3lines">
+            </div>
+            <div id="logo" >DEO WEB</div>
+            <div class="user_info">
+                <img id="channel_img" src=" potrait6.jpg" alt="channel_img">
+                <span id="user_name"><b>Oguche Treasure</b></span> 
+            </div>
+        </div>
+        <div class="body">
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_1.JPG" src=" vid_1.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait1.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">First day </p>
+                        <p id="extra_info">DEO studio code
+                            <br>1.8M views.2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" sponge bob 1.jpg" src=" vid_2.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" sponge bob 1.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">Hello world! </p>
+                        <p id="extra_info">Fun time
+                            <br>90 views.9 months ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_3.JPG" src=" vid_3.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait3.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">Hi guys </p>
+                        <p id="extra_info">NGT technology
+                            <br>1.5K view.2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_4.JPG" src=" vid_4.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait4.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">Graduation day </p>
+                        <p id="extra_info">Oguche Divine
+                            <br>1.6B views.5 years ago</p>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="video_container">
+                <div class="video">
+                    <video id="video"  src=" vid_5.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait6.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">My lovely niece </p>
+                        <p id="extra_info">Oguche Treasure
+                            <br>130 views.2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_6.JPG" src=" vid_6.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait5.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">My community work </p>
+                        <p id="extra_info">Divine Tech
+                            <br>13 views.3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_7.JPG" src=" vid_7.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait7.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">A day at my sis shop </p>
+                        <p id="extra_info">The Oguche Family
+                            <br>121M views.6 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" img_8.JPG" src=" vid_8.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait8.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">Baby Zoey💕💕💕 </p>
+                        <p id="extra_info">Oguche Divine
+                            <br>18 views.15 mins ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="video">
+                    <video id="video" poster=" potrait7.jpg" src=" vid_2.mp4" controls></video>
+                </div>
+                <div class="video_info">
+                    <div class="channel_img">
+                        <img id="channel_img" src=" potrait6.jpg" alt="unavailable">
+                    </div>
+                    <div id="video_info">
+                        <p id="video_name">First day in court </p>
+                        <p id="extra_info">Oguche Treasure
+                            <br>201 views.5 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </body>
+</html>
